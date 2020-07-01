@@ -149,6 +149,11 @@ h3.sm-heading {
 a {
   color: #fff;
   text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  color: #eec71a;
 }
 
 header {
@@ -162,7 +167,8 @@ header {
 }
 
 .text-emphatic {
-  color: #7f0bc2;
+  color: #eec71a;
+  font-weight: 900;
 }
 
 main {
@@ -190,7 +196,7 @@ main#home h1 {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .about-info .bio-image {
   grid-area: bioimage;
